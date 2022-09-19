@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contatos - Victor Santos</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Montserrat:wght@100&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css"/>
+</head>
+<body>
+    <div class="container">
+        <nav>
+            <div class="ul">
+                <li>
+                    <button class="botao-gradiente" type="button">
+                    <a href="index.html">SOBRE MIM</a>
+                    </button>
+                </li>
+                <li>
+                   <button class="botao-gradiente" type="button">
+                    <a href="contact.html">CONTATO</a>
+                   </button>
+                </li>
+            </div>
+        </nav>
+        <header class="center">
+            <div>
+                <div id="imgborder">
+                    <img src="./img/6bbec16a-8084-4faf-850a-04f5c8d49420.jpg">
+                </div> 
+            </div>
+    
+            <div class="gradiente">
+                <h1>VICTOR SANTOS</h1>
+            </div>
+            
+            <h2>ESTUDANTE DE PROGRAMAÇÃO WEB</h2>
+        </header>
+        <main>
+            <form class="contact-form" action="https://formsubmit.co/victorpetry2@hotmail.com" method="POST">
+                <label for="name">Nome</label>
+                <input type="text" name="name" id="name" required>
+                <label for="email">E-mail</label>
+                <!-- identificar a função do input -->
+                <input type="email" name="email" id="email" required>
+                <label for="message">Mensagem</label>
+                <input type="text" name="message" id="message" required>
+                <input type="hidden" name="_next" value="http://127.0.0.1:5500//thanks.html">
+                <!-- hidden = o usuario nao ira ver  -->
+                <button type="submit">ENVIAR!</button>
+                </form>     
+        </main>
+        <hr>
+        <footer>
+            <a href="https://www.instagram.com/santosvsg/" target="_blank" rel="noopener noreferrer">
+                <img src="./img/d6315f37f2262496228462ef732e83b1-removebg-preview.png" alt="">
+                <p>Instagram</p>
+            </a>
+            <a href="https://www.linkedin.com/in/victor-santos-02017419b/" target="_blank" rel="noopener noreferrer">
+                <img src="./img/Linkedin-logo-transparent-PNG-removebg-preview.png" alt="">
+                <p>LinkedIn</p>
+            </a>
+            <a href="https://github.com/dev-victorsantos" target="_blank" rel="noopener noreferrer">
+                <img src="./img/b15eedbdafbbdbca3249e3942f4faf3b.png" alt="">
+                <!-- target_blank = abre uma nova guia -->
+                <p>GitHub</p>
+            </a>
+        </footer>
+        
+     <hr>
+
+     <h5>Site desenvolvido por <strong>Victor Santos.</strong></h5>
+     <h5>Todos os direitos reservados.</h5>
+    </div>
+</body>
+</html>
